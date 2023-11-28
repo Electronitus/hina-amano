@@ -9,7 +9,7 @@ const bot = new Client();
 
 // Discord bot list API stuff.
 const DBL = require("dblapi.js");
-const dbl = new DBL(process.env.DBL_API, bot);
+const dbl = new DBL(process.env.DBL_KEY, bot);
 
 // Bot prefix.
 const prefix = "&";
@@ -48,7 +48,7 @@ var con = mysql.createConnection({
 // Connects to the database and extracts channel data.
 con.connect(err => {
     if(err) throw err;
-    console.log("Connected to database!");
+    console.log("Connected to database.");
     con.query("SELECT id, home, time, scheduled FROM channels", function(err, result){
         if(err) throw err;
         for(i = 0; i < Object.size(result); i++){

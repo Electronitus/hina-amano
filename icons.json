@@ -1,0 +1,20 @@
+[
+    {"icon": "01d", "emoji": ":sunny:"},
+    {"icon": "01n", "emoji": ":sunny:"},
+    {"icon": "02d", "emoji": ":white_sun_small_cloud:"},
+    {"icon": "02n", "emoji": ":white_sun_small_cloud:"},
+    {"icon": "03d", "emoji": ":white_sun_cloud:"},
+    {"icon": "03n", "emoji": ":white_sun_cloud:"},
+    {"icon": "04d", "emoji": ":cloud:"},
+    {"icon": "04n", "emoji": ":cloud:"},
+    {"icon": "09d", "emoji": ":cloud_rain:"},
+    {"icon": "09n", "emoji": ":cloud_rain:"},
+    {"icon": "10d", "emoji": ":cloud_rain:"},
+    {"icon": "10n", "emoji": ":cloud_rain:"},
+    {"icon": "11d", "emoji": ":cloud_lightning:"},
+    {"icon": "11n", "emoji": ":cloud_lightning:"},
+    {"icon": "13d", "emoji": ":cloud_snow:"},
+    {"icon": "13n", "emoji": ":cloud_snow:"},
+    {"icon": "50d", "emoji": ":fog:"},
+    {"icon": "50n", "emoji": ":fog:"}
+]
